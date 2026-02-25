@@ -1,0 +1,12 @@
+{
+  "name": "bizarre-bounce-playfun",
+  "version": "1.0.0",
+  "description": "Bizarre Bounce - Play.fun edition",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "author": "BizarreBeasts",
+  "license": "ISC",
+  "devDependencies": {}
+}
