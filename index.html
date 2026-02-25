@@ -1175,6 +1175,11 @@
 
           if (gameState === 'results') {
             reportGameOver(score);
+            selectRandomBeast();
+            gameState = 'splash';
+            scoreEl.style.display = 'none';
+            bizarreBar.style.display = 'none';
+            resetGame();
             return;
           }
 
