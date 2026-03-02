@@ -136,8 +136,7 @@
           ch = window.innerHeight;
           canvas.width = cw;
           canvas.height = ch;
-          // Disable image smoothing for better performance
-          ctx.imageSmoothingEnabled = false;
+          ctx.imageSmoothingEnabled = true;
         }
         resizeCanvas();
         window.addEventListener('resize', resizeCanvas);
